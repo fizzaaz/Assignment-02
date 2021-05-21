@@ -128,13 +128,15 @@ html {
 
 .menu .image img {
     width: 140px;
+    margin-top: -30px;
     height: 140px;
     border-radius: 50%;
     text-align: center;
+
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 30px 0px 40px 0px;
 }
 
 .menu .author-content h4 {
@@ -145,31 +147,6 @@ html {
     font-size: 13px;
     font-style: italic;
     color: #fff;
-}
-
-.menu .social-network {
-    margin-top: 60px;
-}
-
-.menu .social-network ul li {
-    margin: 0 3px;
-}
-
-.menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    transition: all 0.5s;
-}
-
-.menu .social-network ul li a:hover {
-    background-color: #fff;
-    color: #a43f49;
 }
 
 
@@ -684,15 +661,7 @@ section.contact-me {
 }
 
 @media screen and (max-width: 1680px) and (min-width: 846px) { 
-    .menu .social-network ul li a {
-        width: 36px;
-        height: 36px;
-        line-height: 36px;
-    }
-
-    .menu .social-network ul li {
-        margin: 0;
-    }
+   
 
     .menu .image {
         margin-top: 60px;
