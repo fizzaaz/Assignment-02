@@ -276,31 +276,23 @@
           <div class="section-heading">
             <h2>Contact Me</h2>
             <div class="line-dec"></div>
-            <span
-              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.</span
-            >
-          </div>
+            <span>If you have any questions or concerns. Feel free to contact me.</span>
+             </div>
           <div class="row">
             <div class="right-content">
               <div class="container">
                 <form id="contact" action="" method="post">
                   <div class="row">
                     <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="name"
+                        <input  name="name"
                           type="text"
                           class="form-control"
                           id="name"
                           placeholder="Your name..."
                           required=""
                         />
-                      </fieldset>
                     </div>
                     <div class="col-md-6">
-                      <fieldset>
                         <input
                           name="email"
                           type="text"
@@ -309,10 +301,8 @@
                           placeholder="Your email..."
                           required=""
                         />
-                      </fieldset>
                     </div>
                     <div class="col-md-12">
-                      <fieldset>
                         <input
                           name="subject"
                           type="text"
@@ -321,10 +311,8 @@
                           placeholder="Subject..."
                           required=""
                         />
-                      </fieldset>
                     </div>
                     <div class="col-md-12">
-                      <fieldset>
                         <textarea
                           name="message"
                           rows="6"
@@ -333,14 +321,11 @@
                           placeholder="Your message..."
                           required=""
                         ></textarea>
-                      </fieldset>
                     </div>
                     <div class="col-md-12">
-                      <fieldset>
                         <button type="submit" id="form-submit" class="button">
                           Send Message
                         </button>
-                      </fieldset>
                     </div>
                   </div>
                 </form>
@@ -351,68 +336,11 @@
       </section>
     </div>
 
-    <!-- Scripts -->
-  
-
-    <!-- Bootstrap core JavaScript 
-     <script src="vendor/jquery/jquery.min.js"></script>
-         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-
-    -->
+    <!-- Scripts for navigation responsive-->
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/custom.js"></script>
-
     <script>
-      //according to loftblog tut
-    //      $(".main-menu li:first").addClass("active");
-/*
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
 
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });*/
     </script>-->
   </body>
 </html>
