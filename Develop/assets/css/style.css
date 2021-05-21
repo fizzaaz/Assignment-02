@@ -452,6 +452,7 @@ section.my-work .section-heading {
 }
 
 .isotope-wrapper {
+   
     position: relative;
     width: 100%;
     margin: auto;
@@ -479,6 +480,8 @@ section.my-work .section-heading {
 }
 
 .isotope-box {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     width: 100%;
 }
