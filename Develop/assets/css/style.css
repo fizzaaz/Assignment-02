@@ -482,6 +482,8 @@ section.my-work .section-heading {
 .isotope-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
     position: relative;
     width: 100%;
 }
@@ -593,21 +595,32 @@ figure.snip1321 a {
   top: 0;
   bottom: 0;
   z-index: 1;
+
+}
+figure.snip1321:hover {
+transform: scale(1.1); 
+transition: .2s;
 }
 figure.snip1321:hover figcaption,
 figure.snip1321.hover figcaption {
+  
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 1;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+
+
 }
+
 figure.snip1321:hover:after,
 figure.snip1321.hover:after {
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-  opacity: 0.9;
+  -webkit-transform: scale(1);
+  transform: (0);
+  opacity: 0.6;
+  
 }
+
 
 
 /* Contact Me */
