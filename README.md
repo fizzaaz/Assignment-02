@@ -4,7 +4,7 @@ Based on the <a href="https://github.com/fizzaaz/Assignment-02"> Personal Portfo
 
 Demo:https://fizzaaz.github.io/Assignment-02/
 <br>
-<img src=""/>
+<img src="assets/images/ss1.JPG" alt="screenshot">
 <br>
 <img src=""/>
 <br>
