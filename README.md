@@ -1,6 +1,6 @@
 <h1> Professional Portfolio </h1>
 <h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4>
-Based on the <a href=""> Personal Portfolio</a>
+Based on the <a href="https://github.com/fizzaaz/Assignment-02"> Personal Portfolio</a>
 
 Demo:https://fizzaaz.github.io/Assignment-02/
 <br>
