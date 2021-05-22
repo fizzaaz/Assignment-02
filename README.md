@@ -6,10 +6,13 @@ Demo:https://fizzaaz.github.io/Assignment-02/
 <br>
 <img src="assets/images/ss1.JPG" alt="screenshot">
 <br>
-<img src=""/>
+<img src="assets/images/ss2.JPG" alt="screenshot">
 <br>
-<img src=""/>
+<img src="assets/images/ss3.JPG" alt="screenshot">
 <br>
+<img src="assets/images/ss4.JPG" alt="screenshot">
+<br>
+<img src="assets/images/ss5.JPG" alt="screenshot">
 <h2>Structure of a webpage</h2>
 <h3>Navigation Bar</h3>
 <p> This page contains the Navigation Side Bar that navigates you to the section like About me, My projects , Skills and Contact me.</p>
