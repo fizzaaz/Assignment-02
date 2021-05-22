@@ -15,7 +15,7 @@ Demo:https://fizzaaz.github.io/Assignment-02/
 <img src="assets/images/ss5.JPG" alt="screenshot">
 <h2>Structure of a webpage</h2>
 <h3>Navigation Bar</h3>
-<p> This page contains the Navigation Side Bar that navigates you to the section like About me, My projects , Skills and Contact me.</p>
+<p> This page includes my picture, name and links to section i.e this page contains the Navigation Side Bar that navigates you to the section like About me, My projects , Skills and Contact me. </p>
 <ol>
   <li>About Me </li>
   <li>Work</li>
