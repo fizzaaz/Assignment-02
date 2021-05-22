@@ -1,16 +1,28 @@
-html{
+html
+{   
+    /* tells browser to fix box model calculations  */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* scroll smooth when click navigation*/
     scroll-behavior: smooth;
 }
+/* setting fonts*/
 body {
     font-family: 'Lato', sans-serif;
 }
 
 #page-wraper {
+    /* sets Background image*/
     background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    /* sets Background image size to fully cover*/
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* sets Background width*/
+
     width: 100%;
 }
 
@@ -18,51 +30,62 @@ body {
     overflow-x: hidden;
 }
 
+/* get rid of outline */
 input,
 select,
 textarea {
     outline: none;
 }
 
+/*No effects on anchor or on hover*/
 a,
 a:hover {
     text-decoration: none;
 }
 
+
 p {
+    /*sets paragraph font size*/
     font-size: 16px;
+    /*sets paragraph height*/
     line-height: 24px;
+    /* sets font color */
     color: #fff;
 }
 
 h4 {
+    /*resizing font*/
     font-size: 26px;
+    /*bolding font */
     font-weight: 700;
+    /*sets font color*/
     color: #fff;
+    /*adds space between letters*/
     letter-spacing: 0.25px;
 }
 
 img {
+    /*sets image wideness to 100%*/
     width: 100%;
+    /*stop overflow*/
     overflow: hidden;
 }
 
 ul {
+    /* adds padding so html inside has space */
     padding: 0;
+    /*adds spaces to list */
     margin: 0;
+    /*no styling on list */
     list-style: none;
 }
 
 ul li {
+   /* sets display to view it inline horizontally*/
     display: inline-block;
 }
 
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
+/* tells browser to fix box model calculations  */
 *,
 *:before,
 *:after {
@@ -70,50 +93,61 @@ html {
     -moz-box-sizing: inherit;
     box-sizing: inherit;
 }
-
+/*zooming out */
 .clearfix {
     zoom: 1;
 }
 
+/* clear content and sets display in table */
 .clearfix:before,
 .clearfix:after {
     content: "";
     display: table;
 }
 
+/*Elements are not allowed to float on both sides*/
 .clearfix:after {
     clear: both;
 }
 
+/* image is center on a block using auto for left/right */
 .container {
     margin: 0 auto;
 }
-
+/*aligns navigation text to center*/
 .main-nav {
     text-align: center;
     
 }
-
+/*adds border line on last nav element*/
 .main-nav li:last-child a
  {
     border-bottom: 1px solid #fff;
 }
-
+/*sets display in block*/
 .main-nav li {
     display: block;
 }
 
+
 .main-nav li a {
+    /* adds space at the bottom of nav list*/
     margin-bottom: -5px;
+    /* adds space at the top of nav list*/
     margin-top: -5px;
+    /* sets height of nav list*/
     height: 70px;
     line-height: 70px;
+    /* sets display to view it inline horizontally*/
     display: inline-block;
+    /* sets font size of nav list*/
     font-size: 16px;
     font-weight: 700;
     color: #fff;
     width: 100%;
+    /*adds delay*/
     transition: all 0.5s;
+    /*adds border at top*/
     border-top: 1px solid #fff;
 }
 
@@ -749,6 +783,7 @@ section.contact-me {
     display: none;
 }  
 
+/*Responsive*/
 @media screen and (max-width: 845px) {        
     #menu-toggle,
     #menu-close {
