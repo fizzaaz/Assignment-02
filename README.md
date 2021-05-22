@@ -2,7 +2,7 @@
 <h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4>
 Based on the <a href=""> Personal Portfolio</a>
 
-Demo:
+Demo:https://fizzaaz.github.io/Assignment-02/
 <br>
 <img src=""/>
 <br>
