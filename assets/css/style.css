@@ -686,8 +686,9 @@ section.contact-me {
     text-align: center;
 }
 /*social icons*/
-
-.fa {
+/* sets background color, width, align and font size of social icons*/
+.fa 
+{
     padding: 6px;
     font-size: 10px;
     width: 35px;
@@ -695,7 +696,6 @@ section.contact-me {
     text-decoration: none;
     margin: 12px 2px;
   }
-  bf zdf 
   .fa:hover {
       opacity: 0.7;
   }
@@ -814,6 +814,7 @@ section.contact-me {
         margin: 20px 0px 40px 0px;
     }
 
+/* adds padding so html inside has space */
     .menu .container {
         padding-left: 15px;
         padding-right: 15px;
