@@ -151,6 +151,7 @@ ul li {
     border-top: 1px solid #fff;
 }
 
+/* sets background & font color */
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
@@ -159,6 +160,7 @@ ul li {
 
 /* Sidebar Menu */
 
+/* puts space between the image and the content vertically */
 .menu .image {
     margin-top: 60px;
 }
